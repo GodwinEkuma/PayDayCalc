@@ -1,0 +1,1 @@
+PaydayCalc helps companies to calculate the salaries of different types of employees based on their experience level
