@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>PayDayCalc</title>
+  </head>
+  <body>
+    <main class="payday">
+            <sction class="container">
+                    <header class="payday-heading">
+                            <img src="logo.svg"  alt='Payday logo'>
+                        <h2 style="color:#fff"> Pay Day Calculator</h2>
+                        
+                    </header>
+                    
+                    <form class="form-contianer">
+                        <div class="input-fields">
+                            <input type="text" id="employeeName" placeholder="Enter Employee Name">
+                            <select>
+                                <option value="selecttype">Select Type</option>
+                                <option value="intern">Intern</option>
+                                <option value="associate">Associate</option>
+                                <option value="manager">Manager</option>
+                                <option value="executive">Executive</option>
+                                <option value="director">Director</option>
+                            </select>
+                            <select>
+                                <option value="1">Level 1</option>
+                                <option value="2">Level 2</option>
+                            </select>                
+                        </div>
+                        <div><input type="submit" value="Calculate Salary"></div>
+                    </form>
+                </sction>
+                <section class="details">
+                        <h2 style="text-align:center"> Salary Details</h2>
+                    <div class="employee-details">
+                        <h3 class="employee">Employee Name:</h3>
+                        <p id="details-value"> Clinton Fidelis</p>
+                    </div>
+                    <div class="employee-details">
+                            <h3 class="employee">Level:</h3>
+                            <p id="details-value">D-0</p>
+                        </div>
+                        <div class="employee-details">
+                                <h3 class="employee">Salary:</h3>
+                                <p id="details-value">10000</p>
+                            </div>            
+                </section>
+    </main>
+     
+  </body>
+</html>

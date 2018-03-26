@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.payday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #563D7C;
+}
+.payday-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-contianer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-fields{
+    margin: 10px;
+}
+input, select {
+    padding: 12px 10px;
+}
+input[type="text"]{
+    width: 300px;
+}
+input[type="submit"]{
+    border: none;
+    background: #fff;
+}
+select{
+    width: 200px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: #fff;
+    padding: 2%;
+    margin-top: 15px;
+}
+.employee-details{
+    display: flex;
+    align-items: center;
+}
+.employee{
+    margin-right: 20px;
+}
